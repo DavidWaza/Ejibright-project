@@ -31,8 +31,7 @@ const Nav = () => {
              ))}
             </ul>
             <h1 className="logo">
-              {/* <Image src="/logo.png" alt="logo" height={150} width={150} /> */}
-              Ejibright
+              <Image src="/logo.png" alt="logo" height={100} width={150} />
             </h1>
           </div>
         </nav>
