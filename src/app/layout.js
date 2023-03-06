@@ -7,6 +7,7 @@ import Consult from "./components/ConsultSection";
 import About from "./components/AboutSection";
 import Community from "./components/Community";
 import Services from "./components/Services";
+import Team from "./components/Team";
 
 export const metadata = {
   title: "Eji-Bright multi-company",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         <About />
         <Community />
         <Services />
+        <Team />
         {children}
       </body>
     </html>

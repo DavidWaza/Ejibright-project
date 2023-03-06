@@ -303,6 +303,49 @@
   text-decoration: none;
 }
 
+/* TEAM */
+.teamWrapper {
+  margin-top: 7%;
+}
+
+.teamLeadText {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: calc(2rem + 1.5vw);
+}
+
+.teamLeadSubText {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: calc(0.6rem + 1.7vw);
+}
+
+.teamPhoto {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.teamName>p:nth-child(1) {
+  color: #354053;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 18px;
+  letter-spacing: .02rem;
+}
+
+.teamName>p:nth-child(2) {
+  color: #969AA6;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: .02rem;
+}
+
 /* Mobile and Tablet */
 @media (max-width: 1024px) {
   .contentWrapper {

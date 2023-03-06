@@ -13,12 +13,12 @@ const Hero = () => {
           </p>
         </div>
         <div className={styles.subHero}>
-          <p>We are a multipurpose company that focuses on</p>
+          <p>We are a multipurpose company that focus on</p>
           <p>long term relationships with customers.</p>
         </div>
         <div className={styles.buttonAnime}>
-          <Link href="/about">
-            <OrangeButton text="more services" />
+          <Link href="/service">
+            <OrangeButton text="check services" />
           </Link>
         </div>
       </div>
