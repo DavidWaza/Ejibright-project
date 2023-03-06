@@ -1,6 +1,6 @@
 /* HERO */
 .contentWrapper {
-  background: linear-gradient(69.35deg, rgba(30,34,40,.5)0%, rgba(30,34,40,.5) 99.45%), linear-gradient(0deg, rgba(30,34,40,.5), rgba(30,34,40,.5)), url("/banner.jpg") no-repeat center;
+  background: linear-gradient(69.35deg, rgba(30, 34, 40, .5)0%, rgba(30, 34, 40, .5) 99.45%), linear-gradient(0deg, rgba(30, 34, 40, .5), rgba(30, 34, 40, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center;
   height: 700px;
   background-size: cover;
   text-align: center;
@@ -177,19 +177,19 @@
 }
 
 .imageOne {
-  background-image: url('/img3.jpg');
+  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1678088632/img3_jyhcay.jpg');
 }
 
 .imageTwo {
-  background-image: url('/img6.jpg');
+  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677925439/img6_q15s32.jpg');
 }
 
 .imageThree {
-  background-image: url('/img2.jpg');
+  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,q_auto/v1677925425/img2_v4dtue.jpg');
 }
 
 /* COMMUNITY */
-.communityContent{
+.communityContent {
   text-align: center;
   color: #fff;
   position: absolute;
@@ -197,37 +197,42 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.communityContent>p:nth-child(1){
- 
+
+.communityContent>p:nth-child(1) {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: .02rem;
 }
-.communityContent>p:nth-child(2){
+
+.communityContent>p:nth-child(2) {
   font-family: "Nunito", sans-serif;
   font-size: calc(1.315rem + 0.78vw);
   font-weight: 600;
   letter-spacing: .02rem;
 }
-.communityContent>p:nth-child(3){
+
+.communityContent>p:nth-child(3) {
   font-family: "Nunito", sans-serif;
   font-size: calc(1.315rem + 0.78vw);
   font-weight: 600;
   letter-spacing: .02rem;
   margin-top: -2%;
 }
-.comButton{
+
+.comButton {
   display: flex;
   justify-content: center;
 }
-.comButton>a{
+
+.comButton>a {
   text-decoration: none;
 }
+
 .communityWrapper {
   position: relative;
-  background: linear-gradient(69.35deg, rgba(30,34,40,.5)0%, rgba(30,34,40,.5) 99.45%), linear-gradient(0deg, rgba(30,34,40,.5), rgba(30,34,40,.5)), url("/community.jpg") no-repeat 10% -130%;
+  background: linear-gradient(69.35deg, rgba(30, 34, 40, .5)0%, rgba(30, 34, 40, .5) 99.45%), linear-gradient(0deg, rgba(30, 34, 40, .5), rgba(30, 34, 40, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1677925216/community_s0dawj.jpg") no-repeat 10% -130%;
   height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -235,7 +240,7 @@
 }
 
 /* CARD */
-.card{
+.card {
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   height: 20vh;
@@ -245,12 +250,14 @@
 
 /* Mobile and Tablet */
 @media (max-width: 1024px) {
-  .contentWrapper{
+  .contentWrapper {
     height: 500px;
   }
+
   .subHero {
     font-size: calc(1.02rem + 1.8vw);
   }
+
   .rightCont>p:nth-child(1) {
     font-size: 20px;
     text-align: center;
@@ -272,16 +279,20 @@
   .titleOne>p:nth-child(2) {
     text-align: center;
   }
-  .communityContent>p:nth-child(1){
+
+  .communityContent>p:nth-child(1) {
     padding-top: 10%;
   }
-  .communityContent>p:nth-child(2){
+
+  .communityContent>p:nth-child(2) {
     font-size: calc(0.915rem + 1.78vw);
   }
-  .communityContent>p:nth-child(3){
+
+  .communityContent>p:nth-child(3) {
     font-size: calc(0.915rem + 1.78vw);
   }
-  .comButton{
+
+  .comButton {
     display: flex;
     justify-content: center;
   }
