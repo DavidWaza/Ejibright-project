@@ -29,7 +29,7 @@ const Nav = () => {
               ))}
             </ul>
             <h1 className="logo">
-              <Image src="/logo.png" alt="logo" height={100} width={150} />
+              <Image src="/logo.png" alt="logo" height={90} width={130} />
             </h1>
           </div>
         </nav>

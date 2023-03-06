@@ -252,7 +252,7 @@
   margin-top: 20px;
   font-family: "Nunito", sans-serif;
   color: #969AA6;
-  font-size: 0.9rem;
+  font-size: calc(0.2rem + 0.5vw);
   text-transform: uppercase;
   letter-spacing: .02rem;
   font-weight: 700;
@@ -265,7 +265,7 @@
 .cardContent>a>p {
   margin-top: -20px;
   font-family: "Roboto", sans-serif;
-  font-size: calc(0.8rem + 0.7vw);
+  font-size: calc(0.6rem + 0.7vw);
   font-weight: 700;
   color: #354053;
   letter-spacing: .02rem;
@@ -325,7 +325,10 @@
 
   .Atitle {
     text-align: center;
+    display: block;
+    line-height: 36px;
   }
+
 
   .titleOne {
     text-align: center;
