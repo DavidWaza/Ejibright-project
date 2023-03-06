@@ -53,7 +53,7 @@ const Services = () => {
           </Col>
         </Row>
         <Row>
-          {services.map(({ category, name, link,img }, index) => (
+          {services.map(({ category, name, link, img }, index) => (
             <Col sm={4} key={index}>
               <Card img={img} category={category} name={name} link={link} />
             </Col>

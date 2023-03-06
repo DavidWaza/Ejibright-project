@@ -1,7 +1,5 @@
 import styles from "../../page.module.css";
-import Image from "next/image";
 import Link from "next/link";
-import OrangeButton from "../Button/button";
 
 const Card = (props) => {
   return (
@@ -9,14 +7,9 @@ const Card = (props) => {
       <div className={styles.card}>
         <Link href={props.link}>
           <div className={styles.imgWrapper}>
-            <img
-              src={props.img}
-              alt="img"
-              className={styles.imageContainer}
-            />
+            <img src={props.img} alt="img" className={styles.imageContainer} />
           </div>
         </Link>
-
         <div className={styles.cardContent}>
           <p>{props.category}</p>
           <Link href={props.link}>

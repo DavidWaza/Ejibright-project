@@ -1,6 +1,6 @@
 import "../../globals.css";
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home" },
@@ -22,13 +22,11 @@ const Nav = () => {
               <span className="line line3"></span>
             </div>
             <ul className="menu-items">
-             {links.map(({href, label}, index) => (
+              {links.map(({ href, label }, index) => (
                 <li key={index}>
-                    <Link href={href}>
-                        {label}
-                    </Link>
+                  <Link href={href}>{label}</Link>
                 </li>
-             ))}
+              ))}
             </ul>
             <h1 className="logo">
               <Image src="/logo.png" alt="logo" height={100} width={150} />
