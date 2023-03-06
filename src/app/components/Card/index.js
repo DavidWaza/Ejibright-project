@@ -1,5 +1,6 @@
 import styles from '../../page.module.css';
 import Image from 'next/image';
+import ImageOne from '/public/img1.jpg'
 
 
 const Card = (props) => {
@@ -7,7 +8,8 @@ const Card = (props) => {
     <>
       <div className={styles.card}>
         <div>
-            <Image src='/community.jpg' alt="img" fill />
+            {/* <Image src={ImageOne} alt="img" height={200} width={200} /> */}
+            <img src="/img1.jpg" alt="img" className={styles.imageContainer} />
         </div>
         <div className={styles.cardContent}>
             <p>School</p>
