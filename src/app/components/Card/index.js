@@ -1,20 +1,27 @@
-import styles from '../../page.module.css';
-import Image from 'next/image';
-import ImageOne from '/public/img1.jpg'
-
+import styles from "../../page.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import OrangeButton from "../Button/button";
 
 const Card = (props) => {
   return (
     <>
       <div className={styles.card}>
-        <div>
-            {/* <Image src={ImageOne} alt="img" height={200} width={200} /> */}
-            <img src="/img1.jpg" alt="img" className={styles.imageContainer} />
-        </div>
+        <Link href={props.link}>
+          <div className={styles.imgWrapper}>
+            <img
+              src={props.img}
+              alt="img"
+              className={styles.imageContainer}
+            />
+          </div>
+        </Link>
+
         <div className={styles.cardContent}>
-            <p>School</p>
-            <p>Name od School</p>
-            <p>About the School</p>
+          <p>{props.category}</p>
+          <Link href={props.link}>
+            <p>{props.name}</p>
+          </Link>
         </div>
       </div>
     </>
