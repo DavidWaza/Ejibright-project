@@ -16,7 +16,6 @@ body {
 }
 
 .navbar {
-  /* position: fixed; */
   width: 100%;
   background: #fff;
   color: #000;
@@ -36,9 +35,14 @@ body {
   display: flex;
 }
 
-.logo {
+/* .logo {
   order: 1;
   font-size: 1.4rem;
+} */
+
+.logo-img {
+  width: 90px;
+  height: 90px;
 }
 
 .menu-items li {
@@ -149,6 +153,11 @@ body {
     top: 10px;
     right: 15px;
     font-size: 2.5rem;
+  }
+
+  .logo-img {
+    width: 70px;
+    height: 60px;
   }
 
   .navbar-container input[type="checkbox"]:checked~.menu-items {

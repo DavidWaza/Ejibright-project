@@ -101,6 +101,7 @@
 
 .rightCont {
   background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 30px;
 }
 
@@ -115,6 +116,7 @@
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   color: #969AA6;
+  padding-top: 18px;
 }
 
 .block {
@@ -317,7 +319,7 @@
 .teamLeadSubText {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: calc(0.6rem + 1.7vw);
+  font-size: calc(0.4rem + 1.7vw);
 }
 
 .teamPhoto {
@@ -410,27 +412,36 @@
   padding: 0px 10px;
   transition: all .4s ease;
 }
-.terms>a>p:hover{
+
+.terms>a>p:hover {
   color: #4158D0;
   transition: all .4s ease;
 }
-.iconContainer{
+
+.iconContainer {
   padding: 25px 0px;
   display: flex;
   justify-content: flex-end;
 }
-.iconContainer>a>img{
+
+.iconContainer>a>img {
   margin: 0px 10px;
+  background-color: #BCC0C5;
+  padding: 5px;
 }
-.icon{
-  width: 25px;
-  height: 25px;
+
+.icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
+
 .noirFooter {
   background-color: #181616;
   height: 100px;
 }
-.copyright{
+
+.copyright {
   color: #BCC0C5;
   font-weight: 500;
   font-size: 16px;
@@ -501,9 +512,10 @@
   .terms>a>p {
     padding: 0;
   }
-  .iconContainer{
+
+  .iconContainer {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: -30px;
   }
 }
