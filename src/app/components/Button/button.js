@@ -1,6 +1,6 @@
 import styles from "../../page.module.css";
 
-const OrangeButton = (props) => {
+const Button = (props) => {
   return (
     <>
       <button className={styles.orangeButton}>{props.text}</button>
@@ -8,4 +8,4 @@ const OrangeButton = (props) => {
   );
 };
 
-export default OrangeButton;
+export default Button;

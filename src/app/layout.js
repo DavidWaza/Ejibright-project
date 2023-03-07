@@ -8,6 +8,7 @@ import About from "./components/AboutSection";
 import Community from "./components/Community";
 import Services from "./components/Services";
 import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Eji-Bright multi-company",
@@ -24,6 +25,10 @@ export default function RootLayout({ children }) {
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </Head>;
   return (
     <html lang="en">
@@ -35,6 +40,7 @@ export default function RootLayout({ children }) {
         <Community />
         <Services />
         <Team />
+        <Footer />
         {children}
       </body>
     </html>
