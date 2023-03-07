@@ -179,15 +179,15 @@
 }
 
 .imageOne {
-  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1678088632/img3_jyhcay.jpg');
+  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678088632/img3_jyhcay.jpg');
 }
 
 .imageTwo {
-  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677925439/img6_q15s32.jpg');
+  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,q_auto,f_auto/v1677925439/img6_q15s32.jpg');
 }
 
 .imageThree {
-  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,q_auto/v1677925425/img2_v4dtue.jpg');
+  background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1677925425/img2_v4dtue.jpg');
 }
 
 /* COMMUNITY */
@@ -234,7 +234,7 @@
 
 .communityWrapper {
   position: relative;
-  background: linear-gradient(69.35deg, rgba(138, 74, 124, .5)0%, rgba(30, 34, 40, .5)99.45%), linear-gradient(0deg, rgba(30, 34, 40, .5), rgba(65, 88, 208, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1677925216/community_s0dawj.jpg") no-repeat 10% -130%;
+  background: linear-gradient(69.35deg, rgba(138, 74, 124, .5)0%, rgba(30, 34, 40, .5)99.45%), linear-gradient(0deg, rgba(30, 34, 40, .5), rgba(65, 88, 208, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1677925216/community_s0dawj.jpg") no-repeat 10% -130%;
   height: 500px;
   background-size: cover;
   background-attachment: fixed;

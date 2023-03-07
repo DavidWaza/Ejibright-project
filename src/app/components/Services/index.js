@@ -11,19 +11,19 @@ const Services = () => {
       category: "school",
       name: "Blessed De King first brain works limited",
       link: "/",
-      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_auto,f_auto,q_auto/v1678102907/school_ayscrq.jpg",
+      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678102907/school_ayscrq.jpg",
     },
     {
       category: "media",
       name: "Ejibright Media Co.Limited",
       link: "/",
-      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678102908/media_qyz15d.jpg",
+      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,q_auto,f_auto/v1678102908/media_qyz15d.jpg",
     },
     {
       category: "event planning",
       name: "Purity leisure world limited",
       link: "/",
-      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678102906/event_dizmza.jpg",
+      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678102906/event_dizmza.jpg",
     },
     {
       category: "real estate",
@@ -35,13 +35,13 @@ const Services = () => {
       category: "automobile",
       name: "king of Car Mega Biz",
       link: "/",
-      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678102905/automobile_xdscto.jpg",
+      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,q_auto,f_auto/v1678102905/automobile_xdscto.jpg",
     },
     {
       category: "security",
       name: "Civil Guide Global Network",
       link: "/",
-      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678102907/security_dmlg1z.jpg",
+      img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678102907/security_dmlg1z.jpg",
     },
   ];
   return (
