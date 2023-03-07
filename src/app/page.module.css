@@ -500,6 +500,11 @@
   .terms>a>p {
     padding: 0;
   }
+  .iconContainer{
+    display: flex;
+    justify-content:center;
+    margin-top: -30px;
+  }
 }
 
 @media(max-width: 768px) {
