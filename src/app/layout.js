@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Consult from "./components/ConsultSection";
 import About from "./components/AboutSection";
 import Community from "./components/Community";
-import Services from "./components/Services";
+import Services from "./components/Service";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="body">
         <Nav />
-        <Hero />
+        <Hero />  
         <Consult />
         <About />
         <Community />

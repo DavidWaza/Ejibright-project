@@ -35,14 +35,9 @@ body {
   display: flex;
 }
 
-/* .logo {
-  order: 1;
-  font-size: 1.4rem;
-} */
-
 .logo-img {
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: auto;
 }
 
 .menu-items li {

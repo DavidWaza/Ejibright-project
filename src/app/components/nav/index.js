@@ -1,6 +1,7 @@
+'use client'
 import "../../globals.css";
 import Link from "next/link";
-import Image from "next/image";
+// import { useRouter } from 'next/navigation'
 
 const links = [
   { href: "/", label: "Home" },
@@ -10,6 +11,7 @@ const links = [
 ];
 
 const Nav = () => {
+  // const router = useRouter();
   return (
     <>
       <div>
