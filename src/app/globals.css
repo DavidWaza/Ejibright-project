@@ -18,9 +18,11 @@ body {
 .navbar {
   width: 100%;
   background: #fff;
-  color: #000;
+  color: #fff;
   opacity: 0.85;
   z-index: 100;
+  /* position: fixed; */
+  top: 0;
 }
 
 .navbar-container {
@@ -49,7 +51,7 @@ body {
 
 
 .navbar a {
-  color: #030303;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;

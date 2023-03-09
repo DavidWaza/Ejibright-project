@@ -2,17 +2,50 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Contstyles from "./Contact.module.css";
 import { useForm, ValidationError } from "@formspree/react";
+import Button from "../components/Button/button";
+import Link from "next/link";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mgebzekj");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <>
+        <Container>
+          <Row>
+            <div className={Contstyles.successImg}>
+              <img
+                src="/success.png"
+                alt="success"
+                className={Contstyles.successLogo}
+              />
+            </div>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col>
+              <div className={Contstyles.successContent}>
+                <p>Success!</p>
+                <p>Thank you for submitting</p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <div className={Contstyles.successLink}>
+              <Link href="/">
+                <p>Back to Home</p>
+              </Link>
+            </div>
+          </Row>
+        </Container>
+      </>
+    );
   }
   return (
     <>
       <Container className={Contstyles.wrapper}>
         <Row>
-          <Col sm={4}>
+          <Col sm={5}>
             <div className={Contstyles.headerTitle}>
               <p>Contact us</p>
               <p>You can reach us via email or this form below.</p>
@@ -83,7 +116,7 @@ const Contact = () => {
               </div>
             </form>
           </Col>
-          <Col sm={8}>
+          <Col sm={7}>
             <div className={Contstyles.imgWrapper}></div>
           </Col>
         </Row>
