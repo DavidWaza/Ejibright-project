@@ -1,6 +1,6 @@
 "use client";
 import { Container, Col, Row } from "react-bootstrap";
-import Contstyles from "../Contact.module.css";
+import Contstyles from "./Contact.module.css";
 import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
