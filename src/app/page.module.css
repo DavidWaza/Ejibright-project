@@ -14,7 +14,7 @@
 }
 .contentHero{
   position: absolute;
-  top: 30%;
+  top: 20%;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -22,12 +22,12 @@
   color: #030303;
   font-size: 50px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   line-height: 57.12px;
   color: #fff;
   line-height: 55px;
   letter-spacing:0.034rem;
-  max-inline-size: 17ch;
+  max-inline-size: 15ch;
 }
 .contentHero>p:nth-child(2){
   color: #BCC0C5;
@@ -35,19 +35,12 @@
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   text-align: justify;
-  margin: 0 auto;
   line-height: 25px;
-  letter-spacing: 0.02rem;
-  max-inline-size: 56ch;
+  letter-spacing: 0px;
+  max-inline-size: 36ch;
+  margin-top: 35px;
 }
 
-.subHero {
-  margin-top: 35px;
-  font-size: 1.7rem;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  line-height: 30px;
-}
 
 .subHero>p:nth-child(2) {
   margin-top: -10px;

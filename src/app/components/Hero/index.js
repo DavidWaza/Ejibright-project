@@ -13,9 +13,7 @@ const Hero = () => {
         <Col sm={6}>
           <div className={styles.heroLeft}>
             <div className={styles.contentHero}>
-              <p>
-                We bring solutions to make life easier
-              </p>
+              <p>Transforming the future through innovation and excellence</p>
               <p>
                 We are a multipurpose company that focus on long term
                 relationships with customers.
