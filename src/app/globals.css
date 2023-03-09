@@ -48,7 +48,35 @@ body {
   font-size: 1.2rem;
   font-family: 'Nunito', sans-serif;
 }
+.stroke li a {
+  display: inline-block;
+  position: relative;
+  color: #000;
+}
 
+.stroke li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  border-radius: .4rem;
+  bottom: -5px;
+  left: 0;
+  background-color: #bd0075;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out
+}
+
+.stroke li a:hover {
+  color: #666;
+}
+
+.stroke li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  opacity: 1;
+}
 
 .navbar a {
   color: #000;

@@ -1,7 +1,6 @@
 'use client'
 import "../../globals.css";
 import Link from "next/link";
-// import { useRouter } from 'next/navigation'
 
 const links = [
   { href: "/", label: "Home" },
@@ -11,7 +10,6 @@ const links = [
 ];
 
 const Nav = () => {
-  // const router = useRouter();
   return (
     <>
       <div>
@@ -23,7 +21,7 @@ const Nav = () => {
               <span className="line line2"></span>
               <span className="line line3"></span>
             </div>
-            <ul className="menu-items">
+            <ul className="menu-items stroke">
               {links.map(({ href, label }, index) => (
                 <li key={index}>
                   <Link href={href}>{label}</Link>
