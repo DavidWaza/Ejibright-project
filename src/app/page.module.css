@@ -154,17 +154,17 @@
   font-weight: 700;
   color: #f78b77;
   text-transform: uppercase;
+  padding-left:2%;
 }
 
 .title {
-  padding-top: 20px;
+  padding-top: 5.4%;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: #354053;
   max-inline-size: 40ch;
   margin: 0 auto;
-  /* padding: 0px 60px; */
 }
 
 .title>p:nth-child(2) {
