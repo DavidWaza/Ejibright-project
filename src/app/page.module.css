@@ -1,42 +1,44 @@
 /* HERO */
 .contentWrapper {
-  background: linear-gradient(69.35deg, rgba(138, 74, 124, .5)0%, rgba(30, 34, 40, .5)99.45%), linear-gradient(0deg, rgba(30, 34, 40, .5), rgba(65, 88, 208, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center;
-  height: 700px;
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678367301/pexels-cottonbro-studio-5990270_ewl94m.jpg");
+  /* background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center; */
+  height: 600px;
   background-size: cover;
-  text-align: center;
-  padding-top: 15%;
-  
+  background-position: center;
 }
-
-.contentHero {
+.heroLeft{
+  background-color: #000;
+  height: 600px;
+  position: relative;
+ 
+}
+.contentHero{
+  position: absolute;
+  top: 30%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.contentHero>p:nth-child(1) {
   color: #030303;
-  font-size: calc(2.62rem + 2.1vw);
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
   line-height: 57.12px;
-  letter-spacing: -.01rem;
   color: #fff;
+  line-height: 55px;
+  letter-spacing:0.034rem;
+  max-inline-size: 17ch;
 }
-
-.contentHero>p:nth-child(2) {
-  text-align: center;
-  position: relative;
-}
-
-.contentHero>p:nth-child(2)>span::after {
-  background-image: url("/download.svg");
-  content: "";
-  position: absolute;
-  z-index: -1;
-  display: block;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  left: 52%;
-  bottom: -0.3em;
-  width: 13%;
-  height: 0.3em;
-  color: #fff;
+.contentHero>p:nth-child(2){
+  color: #BCC0C5;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+  letter-spacing: 0.02rem;
+  max-inline-size: 56ch;
 }
 
 .subHero {
@@ -44,7 +46,7 @@
   font-size: 1.7rem;
   font-family: 'Poppins', sans-serif;
   color: #fff;
-  line-height:30px ;
+  line-height: 30px;
 }
 
 .subHero>p:nth-child(2) {
@@ -70,7 +72,6 @@
   transform: translateY(0);
   transition: all .3s ease-in-out;
 }
-
 .buttonAnime>a {
   text-decoration: none !important;
 }
@@ -156,17 +157,20 @@
 }
 
 .title {
-  margin-top: 10%;
+  padding-top: 20px;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: #354053;
+  max-inline-size: 40ch;
+  margin: 0 auto;
+  /* padding: 0px 60px; */
 }
 
 .title>p:nth-child(2) {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+  font-weight: normal;
   color: #354053;
   line-height: 30px;
 }
@@ -177,7 +181,6 @@
   background-size: cover;
   background-position: center;
   height: 300px;
-  border-radius: 0.4rem;
 }
 
 .imageOne {
@@ -205,14 +208,14 @@
 .communityContent>p:nth-child(1) {
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 500;
   letter-spacing: .02rem;
 }
 
 .communityContent>p:nth-child(2) {
   font-family: 'Poppins', sans-serif;
-    font-size: calc(1.315rem + 0.78vw);
+  font-size: calc(0.915rem + 1.28vw);
   font-weight: 600;
   letter-spacing: .02rem;
 }
@@ -237,8 +240,8 @@
 .communityWrapper {
   margin-top: 10%;
   position: relative;
-  background: linear-gradient(69.35deg, rgba(138, 74, 124, .5)0%, rgba(30, 34, 40, .5)99.45%), linear-gradient(0deg, rgba(30, 34, 40, .5), rgba(65, 88, 208, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1677925216/community_s0dawj.jpg") no-repeat 10% -130%;
-  height: 500px;
+  background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1677925216/community_s0dawj.jpg") no-repeat 10% -130%;
+  height: 350px;
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 10%;
@@ -456,7 +459,12 @@
 /* Mobile and Tablet */
 @media (max-width: 1024px) {
   .contentWrapper {
-    height: 500px;
+    background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center;
+    height: 400px;
+    background-size: cover;
+  }
+  .heroLeft{
+    display: none;
   }
 
   .subHero {

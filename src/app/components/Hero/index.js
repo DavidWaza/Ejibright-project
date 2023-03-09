@@ -1,28 +1,35 @@
 import Link from "next/link";
 import styles from "../../page.module.css";
-import OrangeButton from "../Button/button";
+import Button from "../Button/button";
+import { Col, Row } from "react-bootstrap";
 
 const Hero = () => {
   return (
-    <>
-      <div className={styles.contentWrapper}>
-        <div className={styles.contentHero}>
-          <p>We bring solutions to</p>
-          <p>
-            make life <span>easier</span>
-          </p>
-        </div>
-        <div className={styles.subHero}>
-          <p>We are a multipurpose company that focus on</p>
-          <p>long term relationships with customers.</p>
-        </div>
-        <div className={styles.buttonAnime}>
-          <Link href="/service">
-            <OrangeButton text="check services" />
-          </Link>
-        </div>
-      </div>
-    </>
+    <div>
+      <Row className="g-0">
+        <Col sm={6}>
+          <div className={styles.contentWrapper}></div>
+        </Col>
+        <Col sm={6}>
+          <div className={styles.heroLeft}>
+            <div className={styles.contentHero}>
+              <p>
+                We bring solutions to make life easier
+              </p>
+              <p>
+                We are a multipurpose company that focus on long term
+                relationships with customers.
+              </p>
+              <div className={styles.buttonAnime}>
+                <Link href="/service">
+                  <Button text="check services" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </Col>
+      </Row>
+    </div>
   );
 };
 

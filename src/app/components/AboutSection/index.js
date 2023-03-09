@@ -11,10 +11,14 @@ const About = () => {
       <div className={styles.AboutWrapper}>
         <Container>
           <Row>
-            <Col sm={6}>
+            <Col>
               <div className={styles.Atitle}>
                 <p>Who we are.</p>
               </div>
+            </Col>
+          </Row>
+          <Row className="g-0">
+            <Col sm={6}>
               <div className={styles.title}>
                 <p>Our Businesses</p>
                 <p>
@@ -34,7 +38,7 @@ const About = () => {
               <div className={styles.imageOne}></div>
             </Col>
           </Row>
-          <Row>
+          <Row className="g-0">
             <Col sm={6}>
               <div className={styles.imageTwo}></div>
             </Col>
@@ -54,23 +58,25 @@ const About = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={6}>
-              <div className={styles.title}>
-                <p>Customer Satisfaction</p>
-                <p>
-                  We are poised to deliver exceptional service which creates
-                  long term Customer loyalty and retention.
-                </p>
-                <div className={styles.buttonContainer}>
-                  <Link href="/about">
-                    <OrangeButton text="Read More" />
-                  </Link>
+            <Row className="g-0">
+              <Col sm={6}>
+                <div className={styles.title}>
+                  <p>Customer Satisfaction</p>
+                  <p>
+                    We are poised to deliver exceptional service which creates
+                    long term Customer loyalty and retention.
+                  </p>
+                  <div className={styles.buttonContainer}>
+                    <Link href="/about">
+                      <OrangeButton text="Read More" />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </Col>
-            <Col sm={6}>
-              <div className={styles.imageThree}></div>
-            </Col>
+              </Col>
+              <Col sm={6}>
+                <div className={styles.imageThree}></div>
+              </Col>
+            </Row>
           </Row>
         </Container>
       </div>
