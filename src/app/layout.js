@@ -2,12 +2,6 @@ import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Nav from "./components/nav";
-import Hero from "./components/Hero";
-import Consult from "./components/ConsultSection";
-import About from "./components/AboutSection";
-import Community from "./components/Community";
-import Services from "./components/Service";
-import Team from "./components/Team";
 import Footer from "./components/Footer";
 
 export const metadata = {
@@ -34,14 +28,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="body">
         <Nav />
-        <Hero />  
-        <Consult />
-        <About />
-        <Community />
-        <Services />
-        <Team />
-        <Footer />
         {children}
+        <Footer />
       </body>
     </html>
   );

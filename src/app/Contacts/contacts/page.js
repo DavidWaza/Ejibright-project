@@ -1,10 +1,10 @@
+'use client'
 import { Container, Col, Row } from "react-bootstrap";
-import Contstyles from "./Contact.module.css";
-
+import Contstyles from '../Contact.module.css'
 const Contact = () => {
   return (
     <>
-      <Container fluid>
+      <Container className={Contstyles.wrapper}>
         <Row>
           <Col sm={4}>
             <div className={Contstyles.headerTitle}>

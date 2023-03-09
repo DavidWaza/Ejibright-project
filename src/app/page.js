@@ -2,14 +2,24 @@
 // import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-// import Contact from './pages/contact'
+import Hero from "./components/Hero";
+import Consult from "./components/ConsultSection";
+import About from "./components/AboutSection";
+import Community from "./components/Community";
+import Services from "./components/Service";
+import Team from "./components/Team";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/* <Contact /> */}
+      <Hero />  
+        <Consult />
+        <About />
+        <Community />
+        <Services />
+        <Team />
     </main>
   )
 }
