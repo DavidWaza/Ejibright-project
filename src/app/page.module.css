@@ -1,31 +1,34 @@
-
-
-
 /* HERO */
-.contentWrapper, .aboutHero {
+.contentWrapper,
+.aboutHero {
   /* background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center; */
   height: 600px;
   background-size: cover;
   background-position: center;
 }
+
 .contentWrapper {
   background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678367301/pexels-cottonbro-studio-5990270_ewl94m.jpg");
 }
-.aboutHero{
+
+.aboutHero {
   background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678440791/medium-shot-smiley-woman-teaching_xzvtxd.jpg");
 }
-.heroLeft{
+
+.heroLeft {
   background-color: #000;
   height: 600px;
   position: relative;
- 
+
 }
-.contentHero{
+
+.contentHero {
   position: absolute;
-  top: 20%;
+  top: 12%;
   padding-left: 15%;
   padding-right: 15%;
 }
+
 .contentHero>p:nth-child(1) {
   color: #030303;
   font-size: 50px;
@@ -33,10 +36,11 @@
   line-height: 57.12px;
   color: #fff;
   line-height: 65px;
-  letter-spacing:0.034rem;
+  letter-spacing: 0.034rem;
   max-inline-size: 15ch;
 }
-.contentHero>p:nth-child(2){
+
+.contentHero>p:nth-child(2) {
   color: #BCC0C5;
   font-size: 20px;
   font-weight: 500;
@@ -46,7 +50,6 @@
   max-inline-size: 36ch;
   margin-top: 35px;
 }
-
 
 .subHero>p:nth-child(2) {
   margin-top: -10px;
@@ -70,6 +73,7 @@
   transform: translateY(0);
   transition: all .3s ease-in-out;
 }
+
 .buttonAnime>a {
   text-decoration: none !important;
 }
@@ -102,19 +106,21 @@
 
 .rightCont {
   background-color: #fff;
-  padding: 30px;
 }
 
 .rightCont>p:nth-child(1) {
   font-size: 30px;
   line-height: 33px;
+  max-inline-size: 25ch;
+  padding-left: 15%;
 }
 
 .rightCont>p:nth-child(2) {
   font-size: 14px;
   text-transform: uppercase;
   color: #969AA6;
-  padding-top: 18px;
+  line-height: 3px;
+  padding-left: 15%;
 }
 
 .block {
@@ -139,24 +145,27 @@
 
 /* ABOUT US */
 .AboutWrapper {
-  margin-top: 10%;
+  margin-top: 2%;
 }
-
+.abtTitleContainer{
+  padding: 0px 11%;
+}
 .Atitle {
   font-size: 30px;
   font-weight: 700;
   color: #f78b77;
   text-transform: uppercase;
-  padding-top: 4%;
+  padding-top: 13%;
+  padding-bottom: -9%;
 }
 
 .title {
-  padding-top: 5.4%;
+  /* padding-top: 5.4%; */
   font-size: 20px;
   font-weight: 800;
   color: #354053;
   max-inline-size: 40ch;
-  margin: 0 auto;
+  padding: 0px 11%;
 }
 
 .title>p:nth-child(2) {
@@ -171,7 +180,7 @@
 .imageThree {
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 500px;
 }
 
 .imageOne {
@@ -226,7 +235,6 @@
 }
 
 .communityWrapper {
-  margin-top: 10%;
   position: relative;
   height: 400px;
   background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1677925216/community_s0dawj.jpg") no-repeat 10% -130%;
@@ -241,7 +249,8 @@
   padding: 20px;
   transition: all .4s ease;
 }
-.card:hover{
+
+.card:hover {
   background-color: #354053;
   color: #f3f3f3;
   width: 100%;
@@ -256,7 +265,8 @@
   letter-spacing: .02rem;
   font-weight: 700;
 }
-.cardContent:hover{
+
+.cardContent:hover {
   color: #f3f3f3;
 }
 
@@ -271,19 +281,22 @@
   color: #fff;
   letter-spacing: .02rem;
 }
+
 .contentLink>a {
-color: #fff;
+  color: #fff;
 }
 
 /* SERVICES */
-.titleContainer{
-  margin-top: 3%;
+.titleContainer {
+  margin-top: -9%;
 }
+
 .serviceWrapper {
   background-color: #000;
   padding-bottom: 2%;
   margin: 0;
 }
+
 .imgWrapper {
   overflow: hidden;
 }
@@ -301,9 +314,11 @@ color: #fff;
   width: 40px;
   height: auto;
 }
-.slug{
+
+.slug {
   color: #fff;
 }
+
 .serviceButton {
   display: flex;
   justify-content: center;
@@ -317,17 +332,18 @@ color: #fff;
 
 /* TEAM */
 .teamWrapper {
-  margin-top: 7%;
+  margin-top: 2%;
 }
 
 .teamLeadText {
   font-weight: 700;
-  font-size: calc(1rem + 1.5vw);
+  font-size: calc(0.8rem + 1.2vw);
+  max-inline-size: 20ch;
 }
 
 .teamLeadSubText {
   font-weight: 400;
-  font-size: calc(0.4rem + 1vw);
+  font-size: calc(0.4rem + 0.9vw);
 }
 
 .teamPhoto {
@@ -461,7 +477,8 @@ color: #fff;
     height: 400px;
     background-size: cover;
   }
-  .heroLeft{
+
+  .heroLeft {
     display: none;
   }
 
