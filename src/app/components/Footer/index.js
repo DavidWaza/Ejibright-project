@@ -32,7 +32,7 @@ const Footer = () => {
             </Col>
             <Col sm={6}>
               <div className={styles.footerContactText}>
-                <p>Ejibright, clients favorite Multipurpose company </p>
+                <p>Ejibright, clients favorite Multipurpose company.</p>
               </div>
               <Row>
                 <Col sm={6}>
