@@ -1,15 +1,19 @@
-'use client'
+"use client";
 import "../../globals.css";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/service", label: "Service" },
-  { href: "/Contacts", label: "Contact" },
+  { href: "/contacts", label: "Contact" },
 ];
 
 const Nav = () => {
+  const pathname = usePathname();
+  console.log(">>>", pathname);
+
   return (
     <>
       <div>
@@ -21,10 +25,15 @@ const Nav = () => {
               <span className="line line2"></span>
               <span className="line line3"></span>
             </div>
-            <ul className="menu-items stroke">
+            <ul className={`menu-items stroke`}>
               {links.map(({ href, label }, index) => (
                 <li key={index}>
-                  <Link href={href}>{label}</Link>
+                  <Link
+                    className={`${pathname === href ? "activeTab" : null}`}
+                    href={href}
+                  >
+                    {label}
+                  </Link>
                 </li>
               ))}
             </ul>

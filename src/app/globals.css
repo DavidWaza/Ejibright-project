@@ -1,17 +1,25 @@
 @font-face {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'THICCCBOI';
+  src: url('/fonts/THICCCBOI-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
   src: url('/fonts/Poppins-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-
-
 body {
   background-color: #fefefe;
-  ;
+  font-family: 'THICCCBOI';
 }
 
+.activeTab:after {
+  transform: scaleX(1) !important;
+}
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -57,6 +65,7 @@ body {
   font-size: 1.2rem;
   font-family: 'Nunito', sans-serif;
 }
+
 .stroke li a {
   display: inline-block;
   position: relative;
