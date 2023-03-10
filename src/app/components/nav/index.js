@@ -12,7 +12,6 @@ const links = [
 
 const Nav = () => {
   const pathname = usePathname();
-  console.log(">>>", pathname);
 
   return (
     <>
