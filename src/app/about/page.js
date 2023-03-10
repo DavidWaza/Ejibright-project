@@ -2,38 +2,34 @@
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../page.module.css";
 import abtStyles from "./about.module.css";
-import Card from "../components/Card";
-import Button from '../components/Button/button';
+import Button from "../components/Button/button";
 import Link from "next/link";
+import Team from "../components/Team";
 
 const AboutUs = () => {
-  const values = [
-    {
-      name: "Our Businesses",
-      img: "/business.png",
-      slug: "EjiBright Group comprises of many subsidiaries whom as a diversified conglomerate, our interest in multiple industries indicates our determination to cater to our vision of providing basic needs.",
-      link: "",
-    },
-    {
-      name: "Sustainability",
-      img: "/sustainable.png",
-      slug: "Our approach to sustainability goes beyond compliance with regulatory expectations. We are driven by a desire to contribute to, and positively impact the development of our society at large. ",
-      link: "",
-    },
-    {
-      name: "Customer Satisfaction",
-      img: "/satisfaction.png",
-      slug: "We are poised to deliver exceptional service which creates long term customer loyalty and retention.",
-      link: "",
-    },
-  ];
   return (
     <div>
+      <Row className="g-0">
+        <Col sm={6}>
+          <div className={styles.aboutHero}></div>
+        </Col>
+        <Col sm={6}>
+          <div className={styles.heroLeft}>
+            <div className={`${styles.contentHero} ${abtStyles.aboutContent}`}>
+              <p>About Us</p>
+              <p>
+                We are a multipurpose company that focus on long term
+                relationships with customers.
+              </p>
+            </div>
+          </div>
+        </Col>
+      </Row>
       <div className={styles.AboutWrapper}>
         <Container>
           <Row className="g-0">
             <Col sm={6}>
-              <div className={styles.title}>
+              <div className={abtStyles.title}>
                 <p>Our Businesses</p>
                 <p>
                   Ejibright Group comprises of many subsidiaries whom as a
@@ -57,7 +53,7 @@ const AboutUs = () => {
               <div className={styles.imageTwo}></div>
             </Col>
             <Col sm={6}>
-              <div className={styles.title}>
+              <div className={abtStyles.title}>
                 <p>Sustainability</p>
                 <p>
                   Our approach to sustainability goes beyond compliance with
@@ -74,7 +70,7 @@ const AboutUs = () => {
             </Col>
             <Row className="g-0">
               <Col sm={6}>
-                <div className={styles.title}>
+                <div className={abtStyles.title}>
                   <p>Customer Satisfaction</p>
                   <p>
                     We are poised to deliver exceptional service which creates
@@ -93,28 +89,54 @@ const AboutUs = () => {
             </Row>
           </Row>
         </Container>
-      </div>
-      <Row className="g-0">
-        <Col sm={6}>
-          <div className={styles.aboutHero}></div>
-        </Col>
-        <Col sm={6}>
-          <div className={styles.heroLeft}>
-            <div className={`${styles.contentHero} ${abtStyles.aboutContent}`}>
-              <p>About Us</p>
-              <p>
-                We are a multipurpose company that focus on long term
-                relationships with customers.
-              </p>
+        <Row className={abtStyles.coreWrapper}>
+          <Col sm={3}>
+            <div className={abtStyles.coreValues}>
+              <div className={abtStyles.coreNumber}>
+                <p>01</p>
+              </div>
+              <div className={abtStyles.coreContent}>
+                <p>Do the right things</p>
+              </div>
             </div>
-          </div>
-        </Col>
-      </Row>
+          </Col>
+          <Col sm={3}>
+            <div className={abtStyles.coreValues}>
+              <div className={abtStyles.coreNumber}>
+                <p>02</p>
+              </div>
+              <div className={abtStyles.coreContent}>
+                <p>Put people first</p>
+              </div>
+            </div>
+          </Col>
+          <Col sm={3}>
+            <div className={abtStyles.coreValues}>
+              <div className={abtStyles.coreNumber}>
+                <p>03</p>
+              </div>
+              <div className={abtStyles.coreContent}>
+                <p>Win together</p>
+              </div>
+            </div>
+          </Col>
+          <Col sm={3}>
+            <div className={abtStyles.coreValues}>
+              <div className={abtStyles.coreNumber}>
+                <p>04</p>
+              </div>
+              <div className={abtStyles.coreContent}>
+                <p>Go for greatness</p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </div>
       <Container>
         <Row>
           <Col>
-            <div className={styles.Atitle}>
-              <p>Welcome from the ceo</p>
+            <div className={abtStyles.Atitle}>
+              <p>THE CEO</p>
             </div>
           </Col>
         </Row>
@@ -135,15 +157,7 @@ const AboutUs = () => {
           </Col>
         </Row>
       </Container>
-      <div>
-        <Row className={abtStyles.coreWrapper}>
-          {values.map(({ link, slug, name, img }, index) => (
-            <Col sm={4} key={index}>
-              <Card img={img} name={name} slug={slug} link={link} />
-            </Col>
-          ))}
-        </Row>
-      </div>
+      <Team />
     </div>
   );
 };

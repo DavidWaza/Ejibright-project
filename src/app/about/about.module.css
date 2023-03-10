@@ -1,20 +1,70 @@
-.aboutContent{
-    margin-top: 15%;
-}
-.ceo{
-    background-image:url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678109681/daniel-alexander-jinLKGDtJpE-unsplash_wuyuo9.jpg');
+.ceo {
+    background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678109681/daniel-alexander-jinLKGDtJpE-unsplash_wuyuo9.jpg');
     background-position: center;
     background-size: cover;
     height: 300px;
 }
-.abtCeo{
+
+.abtCeo {
     margin: 0 auto;
     max-inline-size: 40ch;
     font-size: 20px;
     padding-top: 6%;
 }
-.coreWrapper{
+
+.coreWrapper {
     background-color: #000;
     padding-bottom: 17px;
     margin-top: 2%;
+}
+.Atitle {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f78b77;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: -9%;
+  }
+
+.title {
+    display: grid;
+    place-content: center;
+}
+
+.title>p:nth-child(1) {
+    padding-top: 30%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.02;
+}
+
+.title>p:nth-child(2) {
+    max-inline-size: 40ch;
+
+}
+
+.coreWrapper {
+    background-color: #000;
+    padding-bottom: 6%;
+}
+
+.coreValues {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding-top: 20%;
+}
+
+.coreNumber {
+    color: #C4C4C4;
+    font-size: 3rem;
+}
+
+.coreContent {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    max-inline-size: 10ch;
+    margin: 0 auto;
 }
