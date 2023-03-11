@@ -147,9 +147,11 @@
 .AboutWrapper {
   margin-top: 2%;
 }
-.abtTitleContainer{
+
+.abtTitleContainer {
   padding: 0px 11%;
 }
+
 .Atitle {
   font-size: 30px;
   font-weight: 700;
@@ -494,14 +496,29 @@
   .rightCont>p:nth-child(2) {
     font-size: 12px;
     text-align: center;
+    padding: 0;
   }
 
   .Atitle {
     text-align: center;
     display: block;
     line-height: 36px;
+    padding-top: 20%;
+    padding-bottom: 10%;
   }
 
+  .title {
+    text-align: center;
+  }
+
+  .title>p:nth-child(2) {
+    text-align: center;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
 
   .titleOne {
     text-align: center;
@@ -513,16 +530,12 @@
 
   .communityContent>p:nth-child(1) {
     padding-top: 10%;
+    font-size: 13px;
   }
 
   .communityContent>p:nth-child(2) {
-    font-size: calc(0.915rem + 1.78vw);
+    font-size: 20px;
   }
-
-  .communityContent>p:nth-child(3) {
-    font-size: calc(0.915rem + 1.78vw);
-  }
-
   .comButton {
     display: flex;
     justify-content: center;
@@ -540,6 +553,28 @@
   .iconContainer {
     display: flex;
     justify-content: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+  .cardContent>p:nth-child(1){
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .slug{
+    font-size: 14px;
+
+  }
+  .teamLeadText{
+    max-inline-size: 50ch;
+  }
+  .teamLeadSubText{
+    max-inline-size: 30ch;
+    margin: 0 auto;
+  }
+  .teamName {
+    text-align: center;
   }
 }
 

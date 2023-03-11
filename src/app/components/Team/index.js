@@ -30,12 +30,12 @@ const Team = () => {
             </Col>
           </Row>
           <Row>
-            <Col sm={6} lg={6}>
+            <Col sm={6}>
               <div className={styles.teamLeadText}>
                 <p>Meet out dedicated team members</p>
               </div>
             </Col>
-            <Col sm={6} lg={6}>
+            <Col sm={6}>
               <div className={styles.teamLeadSubText}>
                 <p>
                   Together, we are a formidable force that stand to achieve
