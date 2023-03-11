@@ -309,15 +309,6 @@
   border-radius: 50%;
 }
 
-.imgTeamWrapper>img {
-  transition: transform .9s ease;
-  border-radius: 0.04rem;
-}
-
-.imgTeamWrapper:hover img {
-  transform: scale(1.2);
-}
-
 .imageContainer {
   width: 54px;
   background-color: #f78b77;
@@ -340,6 +331,15 @@
 
 
 /* TEAM */
+
+.imgTeamWrapper>img {
+  transition: transform .9s ease;
+  border-radius: 0.04rem;
+}
+
+.imgTeamWrapper:hover img {
+  transform: scale(1.2);
+}
 .teamWrapper {
   margin-top: 2%;
 }
