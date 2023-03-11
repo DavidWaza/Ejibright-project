@@ -299,7 +299,8 @@
   margin: 0;
 }
 
-.imgWrapper {
+.imgWrapper,
+.imgTeamWrapper {
   overflow: hidden;
 }
 
@@ -308,7 +309,12 @@
   border-radius: 50%;
 }
 
-.imgWrapper:hover img {
+.imgTeamWrapper>img {
+  transition: transform .9s ease;
+  border-radius: 0.04rem;
+}
+
+.imgTeamWrapper:hover img {
   transform: scale(1.2);
 }
 
@@ -537,6 +543,7 @@
   .communityContent>p:nth-child(2) {
     font-size: 20px;
   }
+
   .comButton {
     display: flex;
     justify-content: center;
@@ -559,21 +566,26 @@
   .card {
     text-align: center;
   }
-  .cardContent>p:nth-child(1){
+
+  .cardContent>p:nth-child(1) {
     font-size: 10px;
     margin-bottom: 20px;
   }
-  .slug{
+
+  .slug {
     font-size: 14px;
 
   }
-  .teamLeadText{
+
+  .teamLeadText {
     max-inline-size: 50ch;
   }
-  .teamLeadSubText{
+
+  .teamLeadSubText {
     max-inline-size: 30ch;
     margin: 0 auto;
   }
+
   .teamName {
     text-align: center;
   }

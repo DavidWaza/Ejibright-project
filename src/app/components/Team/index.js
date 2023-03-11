@@ -47,7 +47,7 @@ const Team = () => {
           <Row>
             {team.map(({ img, name, position }, index) => (
               <Col sm={4} key={index}>
-                <div className={styles.imgWrapper}>
+                <div className={styles.imgTeamWrapper}>
                   <img
                     src={img}
                     alt="team photo"
