@@ -305,7 +305,7 @@
 
 .imgWrapper>img {
   transition: transform .9s ease;
-  border-radius: 0.4rem;
+  border-radius: 50%;
 }
 
 .imgWrapper:hover img {
@@ -313,8 +313,9 @@
 }
 
 .imageContainer {
-  width: 40px;
-  height: auto;
+  width: 54px;
+  background-color: #f78b77;
+  padding: 10px;
 }
 
 .slug {
