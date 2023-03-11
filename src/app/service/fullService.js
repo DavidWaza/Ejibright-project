@@ -1,11 +1,11 @@
 "use client";
-import styles from "../../page.module.css";
+import styles from "../page.module.css";
 import Link from "next/link";
 import { Container, Col, Row } from "react-bootstrap";
-import Card from "../Card";
-import OrangeButton from "../Button/button";
+import Card from "../components/Card";
+import OrangeButton from "../components/Button/button";
 
-const Services = () => {
+const FullServices = () => {
   const services = [
     {
       category: "school",
@@ -48,7 +48,49 @@ const Services = () => {
       link: "/",
       img: "/camera.png",
       slug: "CIVIL GUIDE GLOBAL NETWORK (CGGN SECURITY) is a member of EJIBRIGHT GROUP which is an active practitioner in the industrial private security business, was incorporated in Nigeria as a private security company.",
-    }
+    },
+    {
+        category: "logistics",
+        name: "EJIBRIGHT GLOBAL RESOURCES & LOGISTICS LIMITED",
+        link: "/",
+        img: "/car.png",
+        slug: "We provide complete international freight forwarding and logistics services....",
+      },
+      {
+        category: "paint",
+        name: "THE KING CHEMICAL MULTI-LINK CO. LIMITED",
+        link: "/",
+        img: "/car.png",
+        slug: "We bring your products to full, vibrant life with paints and coatings manufactured here in Nigeria, tailored exactly to your needs and specifications. ",
+      },
+      {
+        category: "oil and gas",
+        name: "MEREMEZE PETROCHEMICALS LIMITED",
+        link: "/",
+        img: "/car.png",
+        slug: "A global leader in specialty chemistries dedicated to improving the quality of life through products and expertise that serve the world’s most essential industries. ",
+      },
+      {
+        category: "engineering technology ",
+        name: "IGBO SOLID GLOBAL LIMITED ",
+        link: "/",
+        img: "/car.png",
+        slug: "ISG are the specialists in Dust Control, Soil Stabilisation, Erosion Control and Water Management. ",
+      },
+      {
+        category: "oil and gas",
+        name: "EJIBRIGHT HEAVY WAVES OIL EXPLORATION CO. LIMITED",
+        link: "/",
+        img: "/car.png",
+        slug: "EJIBRIGHT HEAVY WAVES OIL EXPLORATION is the ideal OIL AND GAS partner: our service team guarantees customer assistance for the entire life cycle of your plant, from initial concept design to decommissioning.  ",
+      },
+      {
+        category: "beverage",
+        name: "Trepure Beverage limited",
+        link: "/",
+        img: "/car.png",
+        slug: "We’re a National leader in premium drinks, the most exciting consumer products category With over 200 brands and sales in many countries, our portfolio has remarkable breadth across spirits and beer."
+      },
   ];
   return (
     <div className={styles.serviceWrapper}>
@@ -73,14 +115,9 @@ const Services = () => {
             </Col>
           ))}
         </Row>
-        <div className={styles.serviceButton}>
-          <Link href="/service">
-            <OrangeButton text="Show Services" />
-          </Link>
-        </div>
       </Container>
     </div>
   );
 };
 
-export default Services;
+export default FullServices;

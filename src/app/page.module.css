@@ -1,6 +1,7 @@
 /* HERO */
 .contentWrapper,
-.aboutHero {
+.aboutHero,
+.serviceHero {
   /* background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center; */
   height: 600px;
   background-size: cover;
@@ -14,7 +15,9 @@
 .aboutHero {
   background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/f_auto,q_auto/v1678440791/medium-shot-smiley-woman-teaching_xzvtxd.jpg");
 }
-
+.serviceHero{
+background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1678537649/african-american-woman-works-call-center-operator-customer-service-agent-wearing-microphone-headsets-working-laptop_mo44mw.jpg');
+}
 .heroLeft {
   background-color: #000;
   height: 600px;
@@ -282,6 +285,7 @@
   font-weight: 700;
   color: #fff;
   letter-spacing: .02rem;
+  text-transform: uppercase;
 }
 
 .contentLink>a {
