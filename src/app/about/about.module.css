@@ -1,3 +1,7 @@
+.aboutContent {
+    padding-top: 20%;
+}
+
 .ceo {
     background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,f_auto,q_auto/v1678109681/daniel-alexander-jinLKGDtJpE-unsplash_wuyuo9.jpg');
     background-position: center;
@@ -17,6 +21,7 @@
     padding-bottom: 17px;
     margin-top: 2%;
 }
+
 .Atitle {
     font-size: 30px;
     font-weight: 700;
@@ -25,7 +30,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     padding-bottom: -9%;
-  }
+}
 
 .title {
     display: grid;
@@ -46,7 +51,8 @@
 
 .coreWrapper {
     background-color: #000;
-    padding-bottom: 6%;
+    padding-bottom: 5%;
+    margin-top: 2% !important;
 }
 
 .coreValues {
@@ -64,7 +70,7 @@
 .coreContent {
     color: #fff;
     font-size: 1.6rem;
-    margin-top: 20px;
+    margin-top: 5px;
     max-inline-size: 10ch;
     margin: 0 auto;
 }
