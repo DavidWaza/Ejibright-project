@@ -2,7 +2,7 @@ import styles from "../../page.module.css";
 import Link from "next/link";
 import { Container, Col, Row } from "react-bootstrap";
 
-const Card = ({ link, img, category, slug, name }) => {
+const Card = ({ link, img, category, slug, name, pid }) => {
   console.log(link);
   return (
     <>
@@ -19,7 +19,7 @@ const Card = ({ link, img, category, slug, name }) => {
                 <p className={styles.slug}>{slug}</p>
                 <div className={styles.contentLink}>
                   {link && (
-                    <Link href={link}>
+                    <Link href={{pathname: link, query:pid}}>
                       <p>Read More </p>
                     </Link>
                   )}
