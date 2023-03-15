@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Nav from "./components/nav";
 import Footer from "./components/Footer";
-// import Poppins from 'next/font/google';
 
 // const poppins = Poppins({
 //   weight:'400',

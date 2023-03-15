@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import styles from "../../src/app/page.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import '../../src/app/globals.css'
 
 export default function Post({ name }) {
   const detailedInfo = [
