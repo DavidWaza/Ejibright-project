@@ -20,6 +20,10 @@
   background-image: url('https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1678537649/african-american-woman-works-call-center-operator-customer-service-agent-wearing-microphone-headsets-working-laptop_mo44mw.jpg');
 }
 
+.mobileContent {
+  display: none;
+}
+
 .heroLeft {
   background-color: #000;
   height: 600px;
@@ -518,6 +522,22 @@
   .heroLeft {
     height: 400px;
   }
+  .mobileContent{
+    display: block;
+    color: #f3f3f3;
+  }
+  .mobileContent>p:nth-child(1){
+    font-size: 30px;
+    max-inline-size: 20ch;
+    margin: 0 auto;
+    padding: 25% 15% 10px 15%;
+    text-align: center;
+  }
+  .mobileContent>p:nth-child(2){
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 10%;
+  }
 
   .contentHero>p:nth-child(1) {
     margin-top: 10%;
@@ -541,6 +561,7 @@
     font-size: 20px;
     text-align: center;
     max-inline-size: 66ch;
+    padding: 0px 32px;
   }
 
   .rightCont>p:nth-child(2) {
@@ -644,9 +665,10 @@
 
 /* TABLET */
 @media (min-width: 768px) {
-  .contentHero{
+  .contentHero {
     margin-top: 20%;
   }
+
   .contentHero>p:nth-child(1) {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -656,6 +678,38 @@
     font-size: 0.96rem;
   }
 
+  .rightCont>p:nth-child(1) {
+    max-inline-size: 66ch;
+    padding: 0;
+    text-align: center;
+  }
+
+  .rightCont>p:nth-child(2) {
+    text-align: center;
+    padding: 0;
+
+  }
+}
+
+@media (min-width: 1280px) {
+  .contentHero {
+    top: 0%;
+  }
+
+  .contentHero>p:nth-child(1) {
+    font-size: 50px;
+    line-height: 57.12px;
+    letter-spacing: 0.034rem;
+    max-inline-size: 15ch;
+  }
+
+  .rightCont>p:nth-child(1) {
+    padding: 0px 30px;
+  }
+
+  .rightCont>p:nth-child(2) {
+    line-height: 0px;
+  }
 }
 
 @media(max-width: 768px) {
