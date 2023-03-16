@@ -387,7 +387,6 @@
 }
 
 /* POST */
-
 .postHero {
   background-color: #000;
   padding: 30px 0;
@@ -401,12 +400,11 @@
   font-family: 'Poppins';
 }
 
-.postContent{
+.postContent {
   padding-top: 4%;
   font-size: 1.1rem;
   font-weight: 500;
 }
-
 
 /* FOOTER */
 .footerWrapper {
@@ -509,8 +507,8 @@
 }
 
 
-/* Mobile and Tablet */
-@media (max-width: 1024px) {
+/* Mobile */
+@media (max-width: 767px) {
   .contentWrapper {
     background: linear-gradient(69.35deg, rgba(0, 0, 0, .5)0%, rgba(0, 0, 0, .5)99.45%), linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1677924163/banner_fza0hn.jpg") no-repeat center;
     height: 400px;
@@ -518,7 +516,21 @@
   }
 
   .heroLeft {
-    display: none;
+    height: 400px;
+  }
+
+  .contentHero>p:nth-child(1) {
+    margin-top: 10%;
+    font-size: 0.8rem;
+    line-height: 22px;
+  }
+
+  .contentHero>p:nth-child(2) {
+    font-size: 0.6rem;
+    margin-top: 0px;
+    max-inline-size: 20ch;
+    line-height: 12px;
+    word-spacing: 2px;
   }
 
   .subHero {
@@ -528,6 +540,7 @@
   .rightCont>p:nth-child(1) {
     font-size: 20px;
     text-align: center;
+    max-inline-size: 66ch;
   }
 
   .rightCont>p:nth-child(2) {
@@ -623,6 +636,26 @@
   .card:hover {
     background-color: transparent;
   }
+
+  .hiddenCol {
+    display: none;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .contentHero{
+    margin-top: 20%;
+  }
+  .contentHero>p:nth-child(1) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  .contentHero>p:nth-child(2) {
+    font-size: 0.96rem;
+  }
+
 }
 
 @media(max-width: 768px) {

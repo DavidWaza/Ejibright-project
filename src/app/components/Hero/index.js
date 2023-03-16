@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <div>
       <Row className="g-0">
-        <Col sm={6}>
+        <Col sm={6} xs={12}>
           <div className={styles.contentWrapper}></div>
         </Col>
-        <Col sm={6}>
+        <Col sm={6} className={`d-none d-md-block`}>
           <div className={styles.heroLeft}>
             <div className={styles.contentHero}>
               <p>Transforming the future through innovation and excellence</p>
