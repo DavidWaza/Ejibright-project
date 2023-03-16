@@ -530,13 +530,15 @@
     font-size: 30px;
     max-inline-size: 20ch;
     margin: 0 auto;
-    padding: 25% 15% 10px 15%;
+    padding: 17% 15% 10px 15%;
     text-align: center;
   }
   .mobileContent>p:nth-child(2){
     font-size: 15px;
     text-align: center;
     padding: 0px 10%;
+    max-inline-size: 33ch;
+    margin: 0 auto;
   }
 
   .contentHero>p:nth-child(1) {
